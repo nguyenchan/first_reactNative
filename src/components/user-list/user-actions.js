@@ -41,7 +41,7 @@ const UserActions = () => {
 					Alert.alert("Tips", "You could do something with this edit action!");
 				}}
 			>
-				<Text style={styles.actionButtonText}>Edit</Text>
+				<Text style={styles.actionButtonText}>message</Text>
 			</TouchableHighlight>
 			<TouchableHighlight
 				style={[styles.actionButton, styles.actionButtonDestructive]}
@@ -52,7 +52,7 @@ const UserActions = () => {
 					);
 				}}
 			>
-				<Text style={styles.actionButtonText}>Remove</Text>
+				<Text style={styles.actionButtonText}>ping</Text>
 			</TouchableHighlight>
 		</View>
 	);

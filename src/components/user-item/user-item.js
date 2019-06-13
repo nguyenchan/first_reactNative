@@ -4,12 +4,10 @@ import { View, Image, Text, StyleSheet } from "react-native";
 const UserItem = ({ item: user }) => {
 	return (
 		<View style={styles.row}>
-			<Image style={styles.rowIcon} source={user.picture.medium} />
+			<Image style={styles.rowIcon} source={user.avatar} />
 			<View style={styles.rowData}>
-				<Text style={styles.rowDataText}>{`${user.name.title} ${
-					user.name.first
-				} ${user.name.last}`}</Text>
-				<Text style={styles.rowDataSubText}>{user.email}</Text>
+				<Text style={styles.rowDataText}>{`${user.name}`}</Text>
+				{/* <Text style={styles.rowDataSubText}>{user.email}</Text> */}
 			</View>
 		</View>
 	);

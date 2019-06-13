@@ -14,7 +14,10 @@ class Home extends React.Component {
 	}
 
 	async getUsers() {
-		const res = await fetch("https://randomuser.me/api/?results=20");
+		const res = await fetch(
+			"https://nguyenchan.github.io/fake_api/authors/authors.json"
+		);
+		console.log(res);
 		const { results } = await res.json();
 		console.log(results);
 		this.setState({ users: [...results], loading: false });

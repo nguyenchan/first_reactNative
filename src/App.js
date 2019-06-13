@@ -7,7 +7,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<View style={styles.appContainer}>
-				<Header title="Some People" />
+				<Header title="Archeryvn authors" />
 				<Home />
 			</View>
 		);
