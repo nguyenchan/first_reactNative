@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/first_reactNative/static/css/main.34de6062.chunk.css",
+    "main.js": "/first_reactNative/static/js/main.bb5fda82.chunk.js",
+    "main.js.map": "/first_reactNative/static/js/main.bb5fda82.chunk.js.map",
+    "runtime~main.js": "/first_reactNative/static/js/runtime~main.2accc6c6.js",
+    "runtime~main.js.map": "/first_reactNative/static/js/runtime~main.2accc6c6.js.map",
+    "static/js/2.4908cf39.chunk.js": "/first_reactNative/static/js/2.4908cf39.chunk.js",
+    "static/js/2.4908cf39.chunk.js.map": "/first_reactNative/static/js/2.4908cf39.chunk.js.map",
+    "index.html": "/first_reactNative/index.html",
+    "precache-manifest.fda67faa51a0abde93152d0432d26dbf.js": "/first_reactNative/precache-manifest.fda67faa51a0abde93152d0432d26dbf.js",
+    "service-worker.js": "/first_reactNative/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/first_reactNative/static/css/main.34de6062.chunk.css.map"
+  }
+}
