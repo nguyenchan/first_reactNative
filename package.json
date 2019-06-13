@@ -3,8 +3,10 @@
 	"version": "0.1.0",
 	"private": true,
 	"main": "./App.js",
+	"homepage": "https://nguyenchan.github.io/first_reactNative",
 	"dependencies": {
 		"expo": "^33.0.5",
+		"gh-pages": "^2.0.1",
 		"react": "^16.8.6",
 		"react-art": "^16.8.6",
 		"react-dom": "^16.8.6",
@@ -13,6 +15,8 @@
 		"react-scripts": "3.0.1"
 	},
 	"scripts": {
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
