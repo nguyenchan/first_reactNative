@@ -1,21 +1,21 @@
 import React from "react";
 import { AppRegistry, StyleSheet, View } from "react-native";
-import Home from "./components/home";
+import Home from "./src/components/home";
 
 class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.appContainer}>
-        <Home />
-      </View>
-    );
-  }
+	render() {
+		return (
+			<View style={styles.appContainer}>
+				<Home />
+			</View>
+		);
+	}
 }
 
 const styles = StyleSheet.create({
-  appContainer: {
-    flex: 1
-  }
+	appContainer: {
+		flex: 1
+	}
 });
 
 AppRegistry.registerComponent("App", () => App);

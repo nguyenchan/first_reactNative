@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "sdkVersion": "31.0.0",
+    "name": "archeryvn-authors",
+    "slug": "archeryvn-authors",
+    "version": "0.1.0",
+    "description": "An application for displaying some people",
+    "primaryColor": "#ff8179",
+    "android": {
+      "package": "some.people"
+    }
+  }
+}
